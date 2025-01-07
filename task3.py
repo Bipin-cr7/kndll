@@ -6,7 +6,6 @@ Count how many numbers are greater than a user-specified threshold.
 
 '''
 userInput= (input("Enter the list of numbers"))
-list=[]
 for number in userInput.split():
     list.append(int(number))
-print(list)
+    

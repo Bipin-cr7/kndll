@@ -22,6 +22,6 @@ with open("file.txt") as f:
       words_length += len(line.split())
       char_length+= len(line)
 
-with open("new_file","w")as f:
+with open("new_file.txt","w")as f:
    f.write(f" number of lines={length}\n numbers of words={words_length} \n number of characters={char_length}")
 

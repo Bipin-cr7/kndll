@@ -20,6 +20,9 @@ while total_chance>0:
     total_chance-=1
 
 if total_chance==0 and UserInput!=randomNumber:
-        print("\n You couldnot guess the number right")
+        print("\nYou couldnot guess the number right")
+
+if __name__=="__main":
+     print("Program executed succesfully")
 
     
